@@ -13,7 +13,6 @@ namespace WinFormsApp1.DB
         public DbSet<Producto> Productos { get; set; }
         public DbSet<Venta> Ventas { get; set; }
         public DbSet<Usuario> Usuarios { get; set; }
-
         public DbSet<Producto_Ventas> Productos_Ventas { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
