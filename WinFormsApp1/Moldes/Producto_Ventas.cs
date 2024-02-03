@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WinFormsApp1.Moldes
 {
-    internal class Producto_Ventas
+    public class Producto_Ventas
     {
         private int Id_Producto_Vendido;
         private int Stock;

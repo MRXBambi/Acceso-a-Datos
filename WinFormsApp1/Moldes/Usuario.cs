@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WinFormsApp1.Moldes
 {
-    internal class Usuario
+    public class Usuario
     {
 
         private int Id_Usuario;
